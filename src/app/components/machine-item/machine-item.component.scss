@@ -1,0 +1,53 @@
+@import "variables";
+
+.machine-item {
+  position: relative;
+  height: 60px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.big {
+    height: 150px;
+  }
+
+  &.running {
+    background-color: $success-color;
+    .material-icons {
+      color: $success-icon-color;
+    }
+  }
+
+  &.alarm {
+    background-color: $alarm-color;
+  }
+
+  &.warning {
+    background-color: $warning-color;
+  }
+
+  .status {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+
+  .material-icons {
+    color: $icon-color;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .material-icons-big {
+      color: $black;
+      font-size: 3rem;
+      &.alarm, &.warning {
+        color: $white;
+      }
+    }
+  }
+}

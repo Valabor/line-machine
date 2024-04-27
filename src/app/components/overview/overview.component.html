@@ -1,0 +1,8 @@
+<div class="overview-container">
+  @for (item of machinesList | async; track item.id; let index = $index) {
+    <app-machine-item [machine]="item" [isBig]="true"></app-machine-item>
+    @if ((machinesList | async) && index < (machinesList | async)!.length - 1) {
+      <app-connector></app-connector>
+    }
+  }
+</div>

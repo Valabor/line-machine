@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  margin-right: 5rem;
+  .icon {
+    margin-right: .5rem;
+  }
+}

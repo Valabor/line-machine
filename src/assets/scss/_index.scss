@@ -1,0 +1,12 @@
+@import "variables";
+@import "root";
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}

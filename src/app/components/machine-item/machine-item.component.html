@@ -1,0 +1,11 @@
+<div class="machine-item" [ngClass]="machine?.status" [class.big]="isBig">
+  <div class="status">
+    <i class="material-icons">{{getStatusIcon(machine?.status)}}</i>
+  </div>
+  <div class="title">
+    @if(isBig) {
+      <i class="material-icons material-icons-big" [ngClass]="machine?.status">{{getStatusIcon(machine?.displayName)}}</i>
+    }
+    {{machine?.displayName}}
+  </div>
+</div>

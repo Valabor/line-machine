@@ -1,0 +1,5 @@
+<div class="navigation flex-center">
+  @for (item of machinesList | async; track item.id) {
+    <app-machine-item [machine]="item"></app-machine-item>
+  }
+</div>
