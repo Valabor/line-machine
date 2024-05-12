@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Scale",
+    "displayName": "Scale",
+    "status": "running"
+  },
+  {
+    "id": 2,
+    "name": "Bag Attach",
+    "displayName": "Attacher",
+    "status": "alarm"
+  },
+  {
+    "id": 3,
+    "name": "Packer",
+    "displayName": "Packer",
+    "status": "running"
+  },
+  {
+    "id": 4,
+    "name": "Bag Closer",
+    "displayName": "Closer",
+    "status": "warning"
+  }
+]
